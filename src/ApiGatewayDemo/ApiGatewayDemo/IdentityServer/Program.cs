@@ -7,7 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace ProductsAPIServices
+namespace IdentityServer
 {
     public class Program
     {
@@ -20,8 +20,7 @@ namespace ProductsAPIServices
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
-                    webBuilder.UseStartup<Startup>()
-                    .UseUrls("http://localhost:9002");
+                    webBuilder.UseStartup<Startup>();
                 });
     }
 }

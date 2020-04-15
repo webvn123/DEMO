@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomersAPIServices", "Cus
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductsAPIServices", "ProductsAPIServices\ProductsAPIServices.csproj", "{B5C4D241-2729-4B23-BEDE-D9FD6680704A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServer", "IdentityServer\IdentityServer.csproj", "{53B9864B-4910-4243-A0D4-022207FD23A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{B5C4D241-2729-4B23-BEDE-D9FD6680704A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5C4D241-2729-4B23-BEDE-D9FD6680704A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5C4D241-2729-4B23-BEDE-D9FD6680704A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53B9864B-4910-4243-A0D4-022207FD23A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53B9864B-4910-4243-A0D4-022207FD23A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53B9864B-4910-4243-A0D4-022207FD23A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53B9864B-4910-4243-A0D4-022207FD23A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
